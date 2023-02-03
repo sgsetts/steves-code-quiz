@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Steve's Code Quiz</title>
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+
+    <body>
+        <div class="scores"><a href="highscores.html">Highscores!</a></div>
     
-</body>
+        <div class="timer"> Time: <span id="time">0</span></div>
+
+        <div class="main">
+            <div id="start-page" class="start">
+                <h1>Steve's Code Quiz!</h1>
+                <p>
+                    Try your best to answer the following questions in this code quiz!
+                    You will be scored by remaining time, and incorrect answers will
+                    deduct 10 seconds/points from your final score! Good luck!
+                </p>
+                <button id="start-btn">Begin!</button>
+            </div>
+        </div>
+    </body>
 </html>
